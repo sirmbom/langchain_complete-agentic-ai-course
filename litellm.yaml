@@ -2,4 +2,9 @@ model_list:
   - model_name: gpt-4o
     litellm_params:
       model: groq/llama-3.3-70b-versatile # groq/openai/gpt-oss-120b #gemini/gemini-2.5-flash
-      api_key: os.environ/GROQ_API_KEY # GEMINI_API_KEY
+      api_key: os.environ/GROQ_API_KEY # GOOGLE_API_KEY
+  - model_name: gemini-2.5-flash
+    litellm_params:
+      model: groq/llama-3.3-70b-versatile # groq/openai/gpt-oss-120b #gemini/gemini-2.5-flash
+      api_key: os.environ/GROQ_API_KEY # GOOGLE_API_KEY
+
